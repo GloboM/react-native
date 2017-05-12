@@ -1,8 +1,8 @@
 import Expo from 'expo';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Deck from './app/Deck'
-import DATA from './app/DeckData.json';
+import Deck from './src/Deck'
+import DATA from './src/DeckData.json';
 import { Card } from 'react-native-elements';
 
 class App extends React.Component {
